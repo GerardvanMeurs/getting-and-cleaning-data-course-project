@@ -5,7 +5,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 This repository contains the following files:
 
 - `README.md`, this file, which provides an overview of the data set and how it was created.
-- `ActivityMeans.csv`, which contains the tidied data set.
+- `ActivityMeans.txt`, which contains the tidied data set (a csv-version is added as well).
 - `CodeBook.md`, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).
 - `run_analysis.R`, the R script that was used to create the data set (see the [Creating the data set](#creating-data-set) section below) 
 
@@ -28,6 +28,6 @@ The R script `run_analysis.R` can be used to create the tidied data set: Activit
 - Use descriptive activity names to name the activities in the data set.
 - Appropriately label the data set with descriptive variable names.
 - Create a second, independent tidy set with the average of each variable for each activity and each subject.
-- Write the data set to the `ActivityMeans.csv` file.
+- Write the data set to the `ActivityMeans.txt` and `ActivityMeans.csv` files.
 
-The `ActivityMeans.csv` in this repository was created by running the `run_analysis.R` script; this script requires the `dplyr` package.
+The `ActivityMeans.txt` and `ActivityMeans.csv` files in this repository were created by running the `run_analysis.R` script; this script requires the `dplyr` package.

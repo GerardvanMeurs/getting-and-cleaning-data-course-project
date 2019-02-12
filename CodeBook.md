@@ -1,6 +1,6 @@
 # CodeBook.md Coursera Peer-graded Assignment: *Getting and Cleaning Data Course Project*
 
-The data set that this CodeBook describes to is located in the `ActivityMeans.csv` file of this repository.
+The data set that this CodeBook describes to is located in the `ActivityMeans.txt` file of this repository; a csv-version is added as well.
 
 See the `README.md` file of this repository for background information on this data set.
 
@@ -8,6 +8,7 @@ The structure of the data set is described in the [Data](#data) section, its var
 
 ## Data <a name="data"></a>
 
+The `ActivityMeans.txt` data file is a text file, containing space-separated values.
 The `ActivityMeans.csv` data file is a csv text file, containing semicolon-separated values.
 
 The first row contains the names of the variables, which are listed and described in the [Variables](#variables) section, and the following rows contain the values of these variables. 

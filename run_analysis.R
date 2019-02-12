@@ -88,3 +88,6 @@ ActivityMeans <- Activity %>%
 
 # writing ActivityMeans to a csv-file
 write.csv2(ActivityMeans, file = "ActivityMeans.csv")
+
+# writing ActivityMeans to a txt-file
+write.table(ActivityMeans, file = "ActivityMeans.txt", row.names = FALSE)
